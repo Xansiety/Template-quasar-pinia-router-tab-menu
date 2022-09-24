@@ -18,6 +18,12 @@ const routes = [
         component: () =>
           import(/* webpackChunkName: "home" */ "../views/DatatableView.vue"),
       },
+      {
+        name: "mapa",
+        path: "/mapa",
+        component: () =>
+          import(/* webpackChunkName: "home" */ "../views/RegisterView.vue"),
+      },
     ],
   },
 ];
